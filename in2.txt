@@ -1,0 +1,22 @@
+5
+RISK high moderate low
+CREDIT_HISTORY bad unknown good
+DEBT high low
+COLLATERAL none adequate
+INCOME $0-$15k $15-$35k >$35k
+RISK
+14
+high bad high none $0-$15k
+high unknown high none $15-$35k
+moderate unknown low none $15-$35k
+high unknown low none $0-$15k
+low unknown low none >$35k
+low unknown low adequate >$35k
+high bad low none $0-$15k
+moderate bad low adequate >$35k
+low good low none >$35k
+low good high adequate >$35k
+high good high none $0-$15k
+moderate good high none $15-$35k
+low good high none >$35k
+high bad high none $15-$35k
