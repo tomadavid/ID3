@@ -20,3 +20,7 @@ high good high none $0-$15k
 moderate good high none $15-$35k
 low good high none >$35k
 high bad high none $15-$35k
+3
+_ bad high none >$35k
+_ unknown high adequate $15-$35k
+_ good low none $0-$15k
