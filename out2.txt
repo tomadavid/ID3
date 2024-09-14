@@ -1,0 +1,27 @@
+COLLATERAL
+*none
+	INCOME
+	*$0-$15k
+		#high#
+	*$15-$35k
+		CREDIT_HISTORY
+		*bad
+			#high#
+		*unknown
+			DEBT
+			*high
+				#high#
+			*low
+				#moderate#
+		*good
+			#moderate#
+	*>$35k
+		#low#
+*adequate
+	CREDIT_HISTORY
+	*bad
+		#moderate#
+	*unknown
+		#low#
+	*good
+		#low#
